@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 const MainComponent = () => {
   return (
     <React.StrictMode>
-      <App />
+     <Router basename="/test2">
+  <App />
+     </Router>
     </React.StrictMode>
   );
 };
