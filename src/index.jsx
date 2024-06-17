@@ -7,9 +7,10 @@ const MainComponent = () => {
   return (
     <React.StrictMode>
      <Router basename="/test2">
-  <App />
+ 
      </Router>
     </React.StrictMode>
+     <App />
   );
 };
 
